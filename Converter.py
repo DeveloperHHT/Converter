@@ -13,8 +13,6 @@ def decimaltobinary(a):
     return liste
 
 
-# decimaltobinary(int(input("Enter a number :")))
-
 def binarytodecimal(a):
     liste = []
     counter = 1
@@ -33,9 +31,6 @@ def binarytodecimal(a):
     return decimal
 
 
-# binarytodecimal(input("Enter a number :"))
-
-
 def decimaltooctal(a):
     liste = []
     while a // 8 != 0:
@@ -47,9 +42,6 @@ def decimaltooctal(a):
     liste.append(a)
     liste.reverse()
     return liste
-
-
-# decimaltooctal(int(input("Enter a number :")))
 
 
 def octaltodecimal(a):
@@ -74,9 +66,6 @@ def octaltodecimal(a):
     return decimal
 
 
-# octaltodecimal(input("Enter a number :"))
-
-
 def decimaltohex(a):
     liste = []
     while a // 16 != 0:
@@ -95,8 +84,6 @@ def decimaltohex(a):
     liste.reverse()
     return liste
 
-
-# decimaltohex(int(input("Enter a number :")))
 
 def hextodecimal(a):
     liste = []
@@ -121,8 +108,6 @@ def hextodecimal(a):
 
     return decimal
 
-
-# hextodecimal(input("Enter a number :"))
 
 print("*********************************************\n"
       "Welcome to Convertor\n"
